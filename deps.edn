@@ -1,0 +1,8 @@
+{:mvn/repos {;;"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://clojars.org/repo"}}
+
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        metosin/reitit      {:mvn/version "0.5.13"}
+        ring/ring-core      {:mvn/version "1.9.3"}}
+
+ :paths ["src"]}
